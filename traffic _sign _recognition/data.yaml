@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['crosswalk', 'speedlimit', 'stop', 'trafficlight']
+
+roboflow:
+  workspace: mahathi-lanka
+  project: traffic-sign-recognition-94p8o
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mahathi-lanka/traffic-sign-recognition-94p8o/dataset/1
